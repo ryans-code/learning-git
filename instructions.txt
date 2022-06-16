@@ -1,0 +1,38 @@
+A student has established the following monthly budget:
+
+Housing 500.00
+Utilities 150.00
+Transportation 50.00
+Food 250.00
+Entertainment 150.00
+Miscellaneous 50.00
+
+Write a program that stores the following data about each budget category in a 
+structure called Category:
+• The name of the category 
+• The amount allocated to the category 
+• The amount spent on that category so far this month
+
+The program should keep an array of these structures, one per category. When the 
+program runs, it should initialize the array using the data above, and 0 for the amount 
+spent so far this month.
+
+Then it should repeat a loop that performs the following steps: The user is prompted to 
+choose one of the following options: select a category (1 through 6), display the table 
+(7), or quit(8). When a category is selected, the user will enter an amount of money to 
+be added to the amount spent on that category so far this month. When option (7) is 
+selected, the user should see a table of the categories with the allocated amounts, the 
+amount spent so far this month, and the amount over budget for that category (if there 
+is money left for that category, it should display as a negative number). The amount 
+over budget should be calculated from the other values. 
+
+When the user quits the program (8), the program should display a message indicating 
+the amount over or under for the entire monthly budget. 
+
+The program must include three functions: 
+• one to display the table, 
+• one to process the user’s selected category (to input the amount and add it to the 
+category), and 
+• one to determine the amount over or under budget for the month. 
+These functions should take an array of Category (and perhaps other values) as 
+arguments.

@@ -1,0 +1,87 @@
+Sample output:
+
+Sample Run #1:
+
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+7
+ Category Allocated Spent Amt over
+----------------------------------------------------------
+ 1. Housing 500.00 0.00 -500.00
+ 2. Utilities 150.00 0.00 -150.00
+ 3. Transportation 50.00 0.00 -50.00
+ 4. Food 250.00 0.00 -250.00
+ 5. Entertainment 150.00 0.00 -150.00
+ 6. Miscellaneous 50.00 0.00 -50.00
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+1
+Please enter the amount to add to that category: 500
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+4
+Please enter the amount to add to that category: 200
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+5
+Please enter the amount to add to that category: 25
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+5
+Please enter the amount to add to that category: 150
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+7
+ Category Allocated Spent Amt over
+----------------------------------------------------------
+ 1. Housing 500.00 500.00 0.00
+ 2. Utilities 150.00 0.00 -150.00
+ 3. Transportation 50.00 0.00 -50.00
+ 4. Food 250.00 200.00 -50.00
+ 5. Entertainment 150.00 175.00 25.00
+ 6. Miscellaneous 50.00 0.00 -50.00
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+2
+Please enter the amount to add to that category: 140
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+7
+ Category Allocated Spent Amt over
+----------------------------------------------------------
+ 1. Housing 500.00 500.00 0.00
+ 2. Utilities 150.00 140.00 -10.00
+ 3. Transportation 50.00 0.00 -50.00
+ 4. Food 250.00 200.00 -50.00
+ 5. Entertainment 150.00 175.00 25.00
+ 6. Miscellaneous 50.00 0.00 -50.00
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+8
+For the month you are under budget by $135.00
+
+Sample Run #2:
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+1
+Please enter the amount to add to that category: 1000
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+6
+Please enter the amount to add to that category: 450.75
+Enter the number of a category to record money spent or 
+7 to display the table or 
+8 to quit.
+8
+For the month you are over budget by $300.75
