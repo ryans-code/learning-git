@@ -1,11 +1,11 @@
 A student has established the following monthly budget:
 
-Housing 500.00
-Utilities 150.00
-Transportation 50.00
-Food 250.00
-Entertainment 150.00
-Miscellaneous 50.00
+Housing               500.00
+Utilities             150.00
+Transportation         50.00
+Food                  250.00
+Entertainment         150.00
+Miscellaneous          50.00
 
 Write a program that stores the following data about each budget category in a 
 structure called Category:
